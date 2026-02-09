@@ -53,28 +53,20 @@ Gemini 3 enables the system to behave like a true autonomous auditor, not a chat
 As a proof of concept, Gemini Guardian audited the COMPAS Recidivism Dataset.
 
 It successfully:
-
 Identified systemic discrepancies in risk scoring
-
 Highlighted cases such as Marcu Brown vs. Michael Lux
-
 Generated a structured JSON remediation plan
-
 Flagged EU AI Act Annex III violations
-
 This replicates weeks of manual legal + data science review in a single autonomous audit.
 
 🛠️ Tech Stack
 Core AI: Gemini 3 Pro
-
 Backend: FastAPI + Python (google-genai SDK)
-
 Frontend: React + Tailwind CSS (Mission Control UI)
-
 Tools: Search Grounding, Agentic Code Execution
 
+
 🏁 Quick Start
-bash
 git clone https://github.com/[Your-Username]/gemini-guardian
 pip install -r requirements.txt
 npm run dev
